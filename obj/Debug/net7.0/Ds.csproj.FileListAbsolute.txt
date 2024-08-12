@@ -1,0 +1,15 @@
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\bin\Debug\net7.0\Ds.exe
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\bin\Debug\net7.0\Ds.deps.json
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\bin\Debug\net7.0\Ds.runtimeconfig.json
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\bin\Debug\net7.0\Ds.dll
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\bin\Debug\net7.0\Ds.pdb
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.csproj.AssemblyReference.cache
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.AssemblyInfoInputs.cache
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.AssemblyInfo.cs
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.csproj.CoreCompileInputs.cache
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.dll
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\refint\Ds.dll
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.pdb
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.genruntimeconfig.cache
+C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\ref\Ds.dll
