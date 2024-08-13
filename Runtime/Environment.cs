@@ -92,6 +92,8 @@ namespace Ds.Runtime {
                 }
                 return new NullVal();
             }));
+            DeclareVar("true",new BoolVal(true),true);
+            DeclareVar("false",new BoolVal(false),true);
             return this;
         }
     }
