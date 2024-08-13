@@ -5,6 +5,7 @@ namespace Ds.Runtime.Values {
         NativeFn,
         Return,
         Number,
+        Bool,
         Object,
         Array,
     }

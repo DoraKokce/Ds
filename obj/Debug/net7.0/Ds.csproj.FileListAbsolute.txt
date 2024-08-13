@@ -13,3 +13,11 @@ C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\refint\
 C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.pdb
 C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\Ds.genruntimeconfig.cache
 C:\Users\yasin\OneDrive\Desktop\DORAYA ÖZEL\yazilim\Ds\obj\Debug\net7.0\ref\Ds.dll
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.AssemblyInfoInputs.cache
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.AssemblyInfo.cs
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.sourcelink.json
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.dll
+C:\Users\Administrator\Ds\obj\Debug\net7.0\refint\Ds.dll
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.pdb
