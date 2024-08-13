@@ -21,3 +21,10 @@ C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.sourcelink.json
 C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.dll
 C:\Users\Administrator\Ds\obj\Debug\net7.0\refint\Ds.dll
 C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.pdb
+C:\Users\Administrator\Ds\bin\Debug\net7.0\Ds.exe
+C:\Users\Administrator\Ds\bin\Debug\net7.0\Ds.deps.json
+C:\Users\Administrator\Ds\bin\Debug\net7.0\Ds.runtimeconfig.json
+C:\Users\Administrator\Ds\bin\Debug\net7.0\Ds.dll
+C:\Users\Administrator\Ds\bin\Debug\net7.0\Ds.pdb
+C:\Users\Administrator\Ds\obj\Debug\net7.0\Ds.genruntimeconfig.cache
+C:\Users\Administrator\Ds\obj\Debug\net7.0\ref\Ds.dll
