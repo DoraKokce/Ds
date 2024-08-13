@@ -1,7 +1,4 @@
-# exclude test files
-
 *.ds
-
-# exclude vscode files
-
+*.sln
+*.drawio
 .vscode/
