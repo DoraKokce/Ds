@@ -13,19 +13,19 @@ namespace Ds {
                 Environment.Exit(1);
             }
 
-            using (FileStream fs = File.OpenRead(args[0])) {
-                string src = "";
-                byte[] b = new byte[1024];
-                UTF8Encoding temp = new(true);
-                int readLen;
-                while ((readLen = fs.Read(b,0,b.Length)) > 0) {
-                    src += temp.GetString(b,0,readLen);
-                }
-                Parser parser = new();
-                ProgramNode ast = parser.ProduceAst(src);
-                Interpreter interpreter = new();
-                interpreter.Eval(ast,new DSEnvironment().CreateGlobalEnv());
+            using FileStream fs = File.OpenRead(args[0]);
+            string src = "";
+            byte[] b = new byte[1024];
+            UTF8Encoding temp = new(true);
+            int readLen;
+            while ((readLen = fs.Read(b, 0, b.Length)) > 0)
+            {
+                src += temp.GetString(b, 0, readLen);
             }
+            Parser parser = new();
+            ProgramNode ast = parser.ProduceAst(src);
+            Interpreter interpreter = new();
+            interpreter.Eval(ast,new DSEnvironment().CreateGlobalEnv());
         }
     }
 }
