@@ -3,6 +3,8 @@ namespace Ds.Runtime.Values {
         Null,
         FnVal,
         NativeFn,
+        TypeVal,
+        InterfaceTypeVal,
         Return,
         Number,
         Bool,

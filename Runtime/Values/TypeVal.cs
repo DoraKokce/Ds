@@ -1,6 +1,7 @@
 namespace Ds.Runtime.Values {
-    public class TypeVal {
-        public RuntimeType Type { get; }
-        public TypeVal(RuntimeType type) {this.Type = type;}
+    public class TypeVal : ITypeVal {
+        public RuntimeType Type { get {return RuntimeType.TypeVal;} }
+        public RuntimeType TypeName { get; }
+        public TypeVal(RuntimeType type) {TypeName = type;}
     }
 }
