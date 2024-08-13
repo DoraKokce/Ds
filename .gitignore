@@ -2,11 +2,6 @@
 
 *.ds
 
-# exclude dotnet files
-
-obj/
-bin/
-
 # exclude vscode files
 
 .vscode/
