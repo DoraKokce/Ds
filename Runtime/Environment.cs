@@ -27,8 +27,9 @@ namespace Ds.Runtime {
         public IRuntimeVal AssignVar(string name, IRuntimeVal val) {
             DSEnvironment env = Resolve(name);
             if (env.Consts.Contains(name)) throw new Exception($"Cannot reasign to variable {name} as it was declared constant.");
-            if (env.Types[name] != val.Type) throw new Exception($"Type mismatch for variable '{name}'. Expected {Types[name]}, got {val.Type}.");
+            if (env.Types[name] != val.Type && val.Type != RuntimeType.Null) throw new Exception($"Type mismatch for variable '{name}'. Expected {Types[name]}, got {val.Type}.");
             env.Vars[name] = val;
+            env.Types[name] = val.Type;
 
             return val;
         }
