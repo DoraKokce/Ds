@@ -63,11 +63,7 @@ namespace Ds.Frontend {
             {
                 Constant = Eat().Type == TokenType.ConstKeyword
             };
-            do {
-                Token ident = Expect(TokenType.Indetifer,"Expected identifier after the let, const or comma (\",\").");
-                declaration.Identifiers.Add(ident.Value);
-                if (At().Type == TokenType.Comma) Eat();
-            } while (At().Type is not TokenType.Comma and not TokenType.Equals and not TokenType.Semicolon);
+            Parse_multiple(TokenType.Indetifer,"Expected identifier after the let, const or comma (\",\").",declaration.Identifiers);
 
             if (At().Type == TokenType.Equals) {
                 Eat();
@@ -113,6 +109,16 @@ namespace Ds.Frontend {
             IExpr expr = Parse_expr().Expr;
             Expect(TokenType.CloseParen,"Expected close paren.");
             return expr;
+        }
+
+        private List<string> Parse_multiple(TokenType type, string err, List<string> list) {
+            do {
+                Token tok = Expect(type,err);
+                list.Add(tok.Value);
+                if (At().Type == TokenType.Comma) Eat();
+                if (At().Type == TokenType.Semicolon) break;
+            } while (At().Type is not TokenType.Comma);
+            return list;
         }
 
         private ExprStmt Parse_expr() => new(Parse_assignment());

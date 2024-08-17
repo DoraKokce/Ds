@@ -2,6 +2,7 @@ namespace Ds.Frontend.Ast {
     public enum NodeType {
         Program,
         FunctionDeclaration,
+        TypeReference,
         ReturnStmt,
         VarDeclaration,
         ExprStmt,
